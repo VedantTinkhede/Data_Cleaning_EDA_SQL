@@ -105,4 +105,4 @@ delete from layoffs_staging2 where total_laid_off is null and percentage_laid_of
 alter table layoffs_staging2 
 drop column row_num;				-- this column is now no longer needed
 
-select * from layoffs_staging2;
+select * from layoffs_staging2;			-- this is a clean dataset
