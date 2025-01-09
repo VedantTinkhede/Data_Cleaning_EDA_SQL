@@ -16,13 +16,13 @@ This README outlines the steps and rationale behind cleaning the layoffs dataset
     
     Standardization improves consistency by:
     
-    Trimming whitespace from company names.
+    - Trimming whitespace from company names.
     
-    Unifying variations of industry names (e.g., normalizing crypto variations to Crypto).
+    - Unifying variations of industry names (e.g., normalizing crypto variations to Crypto).
     
-    Correcting inconsistencies in country fields.
+    - Correcting inconsistencies in country fields.
     
-    Converting date from text to DATE format for better date operations.
+    - Converting date from text to DATE format for better date operations.
 
  4. Handling Null and Blank Values:
     Missing or blank values in industry are set to NULL. Gaps are filled by matching records on common identifiers like company to propagate existing values where possible.
